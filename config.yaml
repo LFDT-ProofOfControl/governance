@@ -5,6 +5,13 @@ teams:
       - ryjones
     members:
       - thelinuxfoundation
+  - name: ov-poc-standard-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - jim-schwoebel
+      - kenhuangus
+      - tricia-wang-work
 repositories:
   - name: .github
     teams:
@@ -13,4 +20,9 @@ repositories:
   - name: governance
     teams:
       lfdt-staff: maintain
+    visibility: public
+  - name: ov-poc-standard
+    teams:
+      lfdt-staff: maintain
+      ov-poc-standard-maintainers: maintain
     visibility: public
